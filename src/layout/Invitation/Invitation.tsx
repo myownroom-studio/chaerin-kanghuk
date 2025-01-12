@@ -9,11 +9,11 @@ const Invitation = () => {
   const { greeting } = data;
   
   const event = {
-    title: "강혁과 채린의 결혼식",
+    title: "강혁\u2764\uFE0F채린의 결혼식",
     location: "경기 광명시 광명역로 21",
-    description: "경기도 광명시 광명역로 21 KTX광명역 동편 B1",
+    description: "[주소] 경기도 광명시 광명역로 21 KTX광명역 동편 B1\n\n[연락처] 02-899-7400\n\n[주차장] 1주차장) 센트럴자이 상가 주차장 B3층 (2시간 무료)\n경기도 광명시 광명역로 28\n(광명센트럴자이 오피스텔) 입력\n\n제2주차장) 파크자이 오피스텔 주차장 B2층 (2시간 무료)\n경기도 광명시 광명역로 26\n(광명 파크자이 오피스텔) 입력",
     start: "2025-04-19 16:30:00 +0900",
-    duration: [1, "hours"],
+    end: "2025-04-19 17:30:00 +0900",
   }
   const googleCalendarUrl = google(event);
 
