@@ -23,10 +23,10 @@ const CommentForm = () => {
       //   date: new Date().toLocaleString(),
       // };
       // void push(guestbookRef, guestbookMessage);
-      //
+      
       // alert('메시지를 보냈습니다. 💌');
-      setName('');
-      setMessage('');
+      // setName('');
+      // setMessage('');
     }
   };
 
